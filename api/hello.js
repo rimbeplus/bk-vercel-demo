@@ -9,5 +9,5 @@ export default function handler(req, res) {
       return res.status(200).end();
     }
   
-    res.status(200).json({ message: "Hello from Vercel API!test" });
+    res.status(200).json({ message: "Hello from Vercel API!test1" });
   }
